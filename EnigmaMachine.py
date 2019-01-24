@@ -212,7 +212,8 @@ def main():
 
         try:
             # plaintext = sys.argv[1]
-            plaintext = "MIKI"
+            # plaintext = "MIKI"
+            plaintext = string_generator()
 
             print("Plaintext", "\t", plaintext)
             for character in plaintext:
